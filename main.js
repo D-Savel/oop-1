@@ -24,8 +24,7 @@ const charlie = new Human(
   ['java', 'python']
 )
 
-console.log('Human functions');
-
+console.log('#Human functions#\n');
 alice.printInfo()
 bob.printInfo()
 charlie.printInfo()
@@ -37,6 +36,5 @@ console.log(bob.mostSkillDev(charlie))
 
 console.log('\n#############\n');
 
-console.log('Point functions\n');
-
-console.log(p1.distance(p2))
+console.log('#Point function#\n');
+console.log(`Distance p1-p2 : ${p1.distance(p2)}`)
